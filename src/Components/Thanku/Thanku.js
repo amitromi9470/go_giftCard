@@ -1,5 +1,7 @@
 import React from "react";
-import "../Thanku/Thanku.css";
+import "./Thanku.css";
+import logo from "../../assets/success.jpg";
+
 
 const Thanku = () => {
   return (
@@ -8,6 +10,7 @@ const Thanku = () => {
       <p className="message">
         <i>Your Phone Number Has Been Successfully Registered for Giftcard</i>
       </p>
+      <img src={logo} className="image" alt="success"/>
     </div>
   );
 };

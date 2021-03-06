@@ -20,6 +20,7 @@ const ParentContainer = (props) => {
     <div className="appContainer">
       <BackGround />
       <Card />
+      <p className="congrates"><i>Congrates you have won giftcard of Rs.200 GoAhead</i></p>
       <NumberBox onChangeHandler={onChangeHandler} />
       <Button
         disabled={phNumber.length !== 10}
